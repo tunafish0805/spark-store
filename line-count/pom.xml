@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>spark-scala-maven-project</groupId>
-    <artifactId>digit-count</artifactId>
+    <artifactId>line-count</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     
