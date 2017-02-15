@@ -26,3 +26,5 @@ project/plugins/project/
 
 .gitignore
 .idea
+
+*.iml
