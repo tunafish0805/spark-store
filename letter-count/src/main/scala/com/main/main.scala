@@ -11,8 +11,8 @@ object main extends App{
   val sc = new SparkContext(conf)
   sc.textFile("path-to-input")
       .map(line => line.split(" "))
-      .map(word => word.)
-    .map(word => (word,1))
+      .map(word => word.toList)
+    .map(letter => (letter,1))
     .reduceByKey((a,b) => a+b)
     .foreach(println)
 
